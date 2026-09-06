@@ -1,15 +1,15 @@
 ![PAMPLEJUCE](assets/images/pamplejuce.png)
 [![](https://github.com/sudara/pamplejuce/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/sudara/pamplejuce/actions)
 
-Pamplejuce is a ~~template~~ lifestyle for creating and building JUCE plugins in 2025.
+Pamplejuce is a ~~template~~ lifestyle for creating and building JUCE plugins in 2026.
 
 Out-of-the-box, it:
 
 1. Runs C++23
-2. Uses JUCE 8.x as a git submodule (tracking develop).
+2. Uses JUCE 9.x as a git submodule (tracking develop).
 3. Uses CPM for dependency management.
 3. Relies on CMake 3.25 and higher for cross-platform building.
-4. Has [Catch2](https://github.com/catchorg/Catch2) v3.7.1 for the test framework and runner.
+4. Has [Catch2](https://github.com/catchorg/Catch2) v3.8.1 for the test framework and runner.
 5. Includes a `Tests` target and a `Benchmarks` target with examples to get started quickly.
 6. Has [Melatonin Inspector](https://github.com/sudara/melatonin_inspector) installed as a JUCE module to help relieve headaches when building plugin UI.
 
@@ -41,7 +41,9 @@ This is a template repo!
 
 That means you can click "[Use this template](https://github.com/sudara/pamplejuce/generate)" here or at the top of the page to get your own copy (not fork) of the repo. Then you can make it private or keep it public, up to you.
 
-Then check out the [documentation](https://melatonin.dev/manuals/pamplejuce/setting-your-project-up/) so you know what to tweak. 
+Then check out the [documentation](https://melatonin.dev/manuals/pamplejuce/setting-your-project-up/) so you know what to tweak.
+
+**Using an AI coding agent?** The included `CLAUDE.md` / `AGENTS.md` has a first-time setup wizard — just ask your agent to set up the project and it will walk you through naming, CI configuration, and code signing.
 
 > [!NOTE]
 > Tests will immediately run and fail (go red) until you [set up code signing](https://melatonin.dev/manuals/pamplejuce/getting-started/code-signing/).
